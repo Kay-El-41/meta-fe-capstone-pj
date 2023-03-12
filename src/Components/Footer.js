@@ -2,8 +2,8 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <footer>
-      <img src="" alt="" />
+    <footer className="footer-section">
+      <img src={require('../icons_assets/restaurant.jpg')} alt="resturant" />
       <section>
         <menu>
           <h3>Doormat Navigation</h3>
@@ -45,13 +45,19 @@ const Footer = () => {
         <menu>
           <h3>Social Media Links</h3>
           <li>
-            <a href='https://www.facebook.com' target='_blank'>Facebook</a>
+            <a href="https://www.facebook.com" target="_blank">
+              Facebook
+            </a>
           </li>
           <li>
-          <a href='https://www.pinterest.com' target='_blank'>Pinterest</a>
+            <a href="https://www.pinterest.com" target="_blank">
+              Pinterest
+            </a>
           </li>
           <li>
-          <a href='https://www.twittter.com' target='_blank'>Twitter</a>
+            <a href="https://www.twittter.com" target="_blank">
+              Twitter
+            </a>
           </li>
         </menu>
       </section>
