@@ -10,7 +10,7 @@ const OrderSection = () => {
   // inside array destructuring
 
   return (
-    <section className=" bg-white px-[15px] py-[50px] lg:px-[150px] xl:px-[250px] flex flex-col">
+    <section id = 'menu' className=" bg-white px-[15px] py-[50px] lg:px-[150px] xl:px-[250px] flex flex-col">
       <div className="flex justify-between">
         <h2 className=" font-markazi text-4xl">This Week's Specials</h2>
         <Link to="/order">

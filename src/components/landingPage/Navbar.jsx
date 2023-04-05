@@ -11,6 +11,15 @@ const Navbar = () => {
     setMenuClosed(!menuClosed)
   }
 
+  const scrollIntoSection = (id) => {
+    const sectionView = document.getElementById(id)
+    if (sectionView) {
+      sectionView.scrollIntoView({
+        behavior: 'smooth',
+      })
+    }
+  }
+
   return (
     <nav className=" font-karla flex relative justify-between items-center shadow-sm bg-white h-[70px] w-full lg:px-[150px] xl:px-[250px]">
       <Link to="/">
@@ -23,11 +32,11 @@ const Navbar = () => {
         } transition-top ease-in duration-300 top-0 left-0 bg-white shadow-sm md:shadow-none`}
       >
         <div className="flex flex-col md:flex-row gap-2 md:gap-5 p-5">
-          <Link>Home</Link>
-          <Link>Menu</Link>
-          <Link>About</Link>
+          <Link onClick={() => scrollIntoSection('hero')}>Home</Link>
+          <Link onClick={() => scrollIntoSection('menu')}>Menu</Link>
+          <Link onClick={() => scrollIntoSection('about')}>About</Link>
           <Link to="/reservation">Reservations</Link>
-          <Link to='/order'>Order Online</Link>
+          <Link to="/order">Order Online</Link>
           <Link>Login</Link>
         </div>
         <TfiClose

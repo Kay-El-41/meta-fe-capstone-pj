@@ -4,9 +4,14 @@ import { Link } from 'react-router-dom'
 
 const HeroSection = () => {
   return (
-    <section className=" bg-green-lemon px-[15px] lg:px-[150px] xl:px-[250px] flex flex-col lg:flex-row lg:items-center lg:gap-10">
+    <section
+      id="hero"
+      className=" bg-green-lemon px-[15px] lg:px-[150px] xl:px-[250px] flex flex-col lg:flex-row lg:items-center lg:gap-10"
+    >
       <div className="flex flex-col lg:w-1/2">
-        <h1 className="font-markazi text-5xl mt-5 text-yellow-lemon">Little Lemon</h1>
+        <h1 className="font-markazi text-5xl mt-5 text-yellow-lemon">
+          Little Lemon
+        </h1>
         <h2 className="font-markazi text-4xl text-white">Chicago</h2>
         <p className=" font-karla text-md mt-5 text-white">
           We are a family owned Mediterranean restaurant, focused on traditional

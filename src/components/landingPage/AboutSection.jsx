@@ -4,9 +4,14 @@ import imgB from '/src/assets/ownersB.jpg'
 
 const AboutSection = () => {
   return (
-    <section className=" bg-white px-[15px] py-10 lg:py-20 lg:px-[150px] h-[700px] flex flex-col lg:flex-row lg:gap-10">
+    <section
+      id="about"
+      className=" bg-white px-[15px] py-10 lg:py-20 lg:px-[150px] h-[700px] flex flex-col lg:flex-row lg:gap-10"
+    >
       <div className="lg:w-1/2 flex flex-col lg:mt-[100px]">
-        <h1 className="font-markazi text-5xl text-yellow-lemon">Little Lemon</h1>
+        <h1 className="font-markazi text-5xl text-yellow-lemon">
+          Little Lemon
+        </h1>
         <h2 className="font-markazi text-4xl">Chicago</h2>
         <p className="font-karla text-md my-5">
           Little Lemon is a charming neighborhood bistro that serves simple food

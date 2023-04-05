@@ -7,6 +7,7 @@ import AboutSection from '../components/landingPage/AboutSection'
 import FooterSection from '../components/landingPage/FooterSection'
 
 const LandingPage = () => {
+
   return (
     <>
       <header>
