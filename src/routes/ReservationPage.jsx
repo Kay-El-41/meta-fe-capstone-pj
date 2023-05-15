@@ -12,6 +12,7 @@ const ReservationPage = () => {
       <main className="px-[15px] lg:px-[150px] xl:px-[250px] flex flex-col lg:gap-10">
         <img
           src={restaurantImg}
+          loading="lazy"
           className="rounded-xl object-cover h-[300px] mt-10"
         />
         <ReservationForm />

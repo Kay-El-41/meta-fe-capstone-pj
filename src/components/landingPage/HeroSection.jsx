@@ -25,6 +25,7 @@ const HeroSection = () => {
       </div>
       <img
         src={heroImage}
+        loading="lazy"
         className=" w-full md:h-[400px] object-cover relative top-5 lg:w-1/2 rounded-xl"
       />
     </section>

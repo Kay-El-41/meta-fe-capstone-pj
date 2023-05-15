@@ -22,10 +22,12 @@ const AboutSection = () => {
       <div className="relative lg:w-1/2">
         <img
           src={imgA}
+          loading="lazy"
           className="absolute object-cover w-[500px] right-10 lg:w-[250px] lg:right-[20px] lg:h-[400px] xl:w-[400px]"
         />
         <img
           src={imgB}
+          loading="lazy"
           className="absolute object-cover w-[350px] left-10 top-[150px] lg:w-[250px] lg:top-[200px]  lg:h-[350px] xl:w-[400px] "
         />
       </div>

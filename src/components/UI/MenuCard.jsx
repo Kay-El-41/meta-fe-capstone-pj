@@ -13,6 +13,7 @@ const MenuCard = (props) => {
     <article className="relative w-[300px] h-[500px] lg:h-[400px] xl:h-[500px] rounded-t-xl bg-gray-lemon">
       <img
         src={image}
+        loading="lazy"
         className="rounded-t-xl object-cover w-full h-[50%] lg:h-[35%] xl:h-[40%]"
       />
       <div className=" flex flex-col gap-5 p-5">

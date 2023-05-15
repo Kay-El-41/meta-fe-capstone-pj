@@ -23,7 +23,7 @@ const Navbar = () => {
   return (
     <nav className=" font-karla flex relative justify-between items-center shadow-sm bg-white h-[70px] w-full lg:px-[150px] xl:px-[250px]">
       <Link to="/">
-        <img src={navLogo} alt="logo" className=" ml-[15px]" />
+        <img src={navLogo} alt="logo" className=" ml-[15px]" loading='lazy'/>
       </Link>
 
       <div

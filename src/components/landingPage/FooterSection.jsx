@@ -4,7 +4,7 @@ import restaurantImg from '/src/assets/restaurant.jpg'
 const FooterSection = () => {
   return (
     <footer className=" bg-gray-lemon px-[15px] py-10 lg:py-20 lg:px-[150px] flex flex-col lg:flex-row lg:gap-10">
-      <img src={restaurantImg} className="rounded-lg lg:w-1/2" />
+      <img src={restaurantImg} className="rounded-lg lg:w-1/2" loading="lazy" />
       <div className="flex flex-col md:flex-row md:justify-around lg:w-1/2 lg:justify-between gap-5">
         <section>
           <menu className=" font-karla flex flex-col gap-2">
